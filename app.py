@@ -18,7 +18,7 @@ from agent import BankingChatbotAgent
 # Page Configuration
 # ─────────────────────────────────────────────
 st.set_page_config(
-    page_title="🏦 AI Banking Chatbot",
+    page_title="🏦 FinSight AI",
     page_icon="🏦",
     layout="centered"
 )
@@ -55,7 +55,7 @@ st.markdown("""
 # ─────────────────────────────────────────────
 # Header
 # ─────────────────────────────────────────────
-st.markdown("## 🏦 AI Banking Chatbot")
+st.markdown("## 🏦 FinSight AI")
 st.markdown("Ask me anything about our banking services, policies, and FAQs.")
 st.markdown("---")
 
@@ -90,7 +90,7 @@ if "messages" not in st.session_state:
 # ─────────────────────────────────────────────
 with st.sidebar:
     st.image("https://img.icons8.com/color/96/bank-building.png", width=80)
-    st.markdown("### 🏦 SecureBank AI Assistant")
+    st.markdown("### 🏦 FinSight AI")
     st.markdown("Powered by **RAG + HuggingFace**")
     st.markdown("---")
 
